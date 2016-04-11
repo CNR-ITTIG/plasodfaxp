@@ -1,0 +1,26 @@
+# Files to ignore by git
+
+# Back-up files
+*~
+*.swp
+
+# Generic auto-generated build files
+*.pyc
+*.pyo
+
+# Specific auto-generated build files
+/__pycache__
+/build/
+/dependencies/
+/docs/_build/doctrees/
+/docs/_build/html
+/dist/
+/plaso.egg-info
+
+# Code review files
+/.review
+._code_review_number
+
+# Test files
+.coverage
+tests-coverage.txt
